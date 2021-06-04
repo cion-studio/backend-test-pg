@@ -1,0 +1,17 @@
+{
+  "name": "backend-test-pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "db": "cd database && docker-compose up",
+    "server": "nodemon ./server/server.js",
+    "setup": "cd client && npm ci && cd .. && cd server && npm i"
+  },
+  "author": "Cion Studio",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.4.1",
+    "cion-menu-button": "^1.0.0"
+  }
+}
