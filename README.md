@@ -35,11 +35,6 @@ Schema diagram can be found here: https://drawsql.app/stingray/diagrams/cion-bac
 
 ## Applications Stack configurations and informations
 
-### Client
-- React + Redux
-- Client active on PORT 3000
-- [localhost:3000](http://localhost:3000) 
-
 ### Server
 - Express (REST)
 - Server active on PORT 5000
